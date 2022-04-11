@@ -1,0 +1,21 @@
+.component-wrapper {
+  opacity: 0;
+  position: relative;
+  animation-name: FirstPage;
+  animation-duration: 1.3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+  height: 100vh;
+}
+
+/* form wrapper */
+.form-wrapper {
+  width: 30%;
+}
+/* 
+@keyframes FirstPage {
+  from { opacity: 0;
+      top: 100px}
+  to {opacity: 1;
+      top: 0px}
+} */
