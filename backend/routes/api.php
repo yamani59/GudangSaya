@@ -38,7 +38,7 @@ Route::prefix('v1')->group(function () {
     });
     Route::controller(Auth::class)->group(function () {
       Route::get('/me', 'me');
-      Route::post('logout', 'logout');
+      Route::get('logout', 'logout');
     });
   });
 });
